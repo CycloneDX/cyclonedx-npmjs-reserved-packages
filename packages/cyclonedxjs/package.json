@@ -1,13 +1,13 @@
 {
   "name": "cyclonedxjs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Defensive placeholder package to prevent name squatting. Official packages are under @cyclonedx/*.",
   "homepage": "https://github.com/CycloneDX",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CycloneDX/cyclonedx-npmjs-reserved-packages.git",
-    "directory": "packages/cyclonedx"
+    "directory": "packages/cyclonedxjs"
   },
   "files": [
     "README.md",
