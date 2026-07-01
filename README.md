@@ -4,7 +4,7 @@ This repository contains placeholder npm packages published under CycloneDX-rela
 typosquatting in the npm registry.
 
 All packages here are intentionally empty.  
-Official CycloneDX JavaScript packages are published under the scoped namespace:
+Official CycloneDX JavaScript packages are published under the scope `@cyclonedx`:
 
 <https://www.npmjs.com/search?q=%40cyclonedx>
 
