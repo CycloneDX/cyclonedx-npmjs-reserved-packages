@@ -1,6 +1,6 @@
 {
   "name": "cyclone-dx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Defensive placeholder package to prevent name squatting. Official packages are under @cyclonedx/*.",
   "homepage": "https://github.com/CycloneDX",
   "license": "Apache-2.0",
