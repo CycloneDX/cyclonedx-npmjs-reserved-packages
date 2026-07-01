@@ -55,7 +55,8 @@ jobs:
           node-version: ${{ env.NODE_ACTIVE_LTS }}
           package-manager-cache: false
       - name: Install npm CLI dependencies
-        run: npm install -g npm@latest
+        run: | # zizmor: ignore[adhoc-packages]
+          npm install -g npm@latest
       - name: Publish package
         working-directory: ${{ matrix.pkg }}
         run: >
