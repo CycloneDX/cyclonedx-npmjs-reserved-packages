@@ -8,6 +8,8 @@ Official CycloneDX JavaScript packages are published under the scope `@cyclonedx
 
 <https://www.npmjs.com/search?q=%40cyclonedx>
 
+---
+
 ## Structure
 
 ```text
