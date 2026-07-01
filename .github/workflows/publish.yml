@@ -52,9 +52,12 @@ jobs:
           package-manager-cache: false
       - name: Install npm CLI dependencies
         run: npm install -g npm@latest
-      - name: Publish package
+      - name: dings
+        working-directory: ${{ matrix.pkg }}
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm set "//registry.npmjs.org/:_authToken=${NPM_TOKEN}"
+      - name: Publish package
         working-directory: ${{ matrix.pkg }}
         run: >
           npm publish
