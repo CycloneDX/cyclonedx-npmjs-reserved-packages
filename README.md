@@ -13,7 +13,6 @@ Official CycloneDX JavaScript packages are published under the scoped namespace:
 ```text
 packages/
   cyclonedx/
-  cyclone-dx/
   cyclonedxjs/
   ...
 ```
